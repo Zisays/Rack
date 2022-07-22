@@ -1,0 +1,27 @@
+{
+  "name": "zisays/rack",
+  "description": "PHP Framework Service",
+  "type": "library",
+  "license": "Apache-2.0",
+  "autoload": {
+    "psr-4": {
+      "Zisays\\Rack\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "zisay",
+      "email": "zisayzhang@outlook.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=8.0"
+  },
+  "repositories": {
+    "packagist": {
+      "type": "composer",
+      "url": "https://mirrors.aliyun.com/composer/"
+    }
+  }
+}
